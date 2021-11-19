@@ -20,7 +20,7 @@ limitations under the License.
 
 # iterUnshift
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Create an [iterator][mdn-iterator-protocol] which prepends values to the beginning of a provided [iterator][mdn-iterator-protocol].
 
@@ -151,9 +151,9 @@ while ( true ) {
 
 ## See Also
 
--   [`@stdlib/iter/concat`][@stdlib/iter/concat]: create an iterator which iterates over the values of two or more iterators.
--   [`@stdlib/iter/push`][@stdlib/iter/push]: create an iterator which appends additional values to the end of a provided iterator.
--   [`@stdlib/iter/shift`][@stdlib/iter/shift]: create an iterator which skips the first value of a provided iterator.
+-   <span class="package-name">[`@stdlib/iter/concat`][@stdlib/iter/concat]</span><span class="delimiter">: </span><span class="description">create an iterator which iterates over the values of two or more iterators.</span>
+-   <span class="package-name">[`@stdlib/iter/push`][@stdlib/iter/push]</span><span class="delimiter">: </span><span class="description">create an iterator which appends additional values to the end of a provided iterator.</span>
+-   <span class="package-name">[`@stdlib/iter/shift`][@stdlib/iter/shift]</span><span class="delimiter">: </span><span class="description">create an iterator which skips the first value of a provided iterator.</span>
 
 </section>
 
@@ -204,8 +204,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/iter-unshift/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/iter-unshift?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/iter-unshift.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/iter-unshift/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/

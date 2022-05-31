@@ -46,12 +46,12 @@
 
 	// MAIN //
 
-	var main$14 = ( typeof Object.defineProperty === 'function' ) ? Object.defineProperty : null;
+	var main$12 = ( typeof Object.defineProperty === 'function' ) ? Object.defineProperty : null;
 
 
 	// EXPORTS //
 
-	var define_property = main$14;
+	var define_property = main$12;
 
 	/**
 	* @license Apache-2.0
@@ -332,7 +332,7 @@
 
 	// EXPORTS //
 
-	var lib$1n = defineProperty$2;
+	var lib$1m = defineProperty$2;
 
 	/**
 	* @license Apache-2.0
@@ -354,7 +354,7 @@
 
 	// MODULES //
 
-	var defineProperty$1 = lib$1n;
+	var defineProperty$1 = lib$1m;
 
 
 	// MAIN //
@@ -389,7 +389,7 @@
 
 	// EXPORTS //
 
-	var main$13 = setNonEnumerableReadOnly$1;
+	var main$11 = setNonEnumerableReadOnly$1;
 
 	/**
 	* @license Apache-2.0
@@ -430,12 +430,12 @@
 
 	// MODULES //
 
-	var setNonEnumerableReadOnly = main$13;
+	var setNonEnumerableReadOnly = main$11;
 
 
 	// EXPORTS //
 
-	var lib$1m = setNonEnumerableReadOnly;
+	var lib$1l = setNonEnumerableReadOnly;
 
 	/**
 	* @license Apache-2.0
@@ -462,14 +462,14 @@
 
 	var re = RE$2;
 
-	var _rollupPluginShim1 = () => { return window; };
+	var _rollupPluginShim2 = () => { return window; };
 
-	var _rollupPluginShim1$1 = /*#__PURE__*/Object.freeze({
+	var _rollupPluginShim2$1 = /*#__PURE__*/Object.freeze({
 		__proto__: null,
-		'default': _rollupPluginShim1
+		'default': _rollupPluginShim2
 	});
 
-	var require$$0$1 = /*@__PURE__*/getAugmentedNamespace(_rollupPluginShim1$1);
+	var require$$0$2 = /*@__PURE__*/getAugmentedNamespace(_rollupPluginShim2$1);
 
 	/**
 	* @license Apache-2.0
@@ -491,7 +491,7 @@
 
 	// MODULES //
 
-	var getGlobal = require$$0$1;
+	var getGlobal = require$$0$2;
 
 
 	// MAIN //
@@ -622,7 +622,7 @@
 
 	// EXPORTS //
 
-	var main$12 = hasSymbolSupport$1;
+	var main$10 = hasSymbolSupport$1;
 
 	/**
 	* @license Apache-2.0
@@ -656,12 +656,12 @@
 
 	// MODULES //
 
-	var hasSymbolSupport = main$12;
+	var hasSymbolSupport = main$10;
 
 
 	// EXPORTS //
 
-	var lib$1l = hasSymbolSupport;
+	var lib$1k = hasSymbolSupport;
 
 	/**
 	* @license Apache-2.0
@@ -683,7 +683,7 @@
 
 	// MODULES //
 
-	var hasSymbols = lib$1l;
+	var hasSymbols = lib$1k;
 
 
 	// VARIABLES //
@@ -709,7 +709,7 @@
 
 	// EXPORTS //
 
-	var main$11 = hasToStringTagSupport$1;
+	var main$$ = hasToStringTagSupport$1;
 
 	/**
 	* @license Apache-2.0
@@ -743,12 +743,12 @@
 
 	// MODULES //
 
-	var hasToStringTagSupport = main$11;
+	var hasToStringTagSupport = main$$;
 
 
 	// EXPORTS //
 
-	var lib$1k = hasToStringTagSupport;
+	var lib$1j = hasToStringTagSupport;
 
 	/**
 	* @license Apache-2.0
@@ -893,7 +893,7 @@
 
 	// EXPORTS //
 
-	var main$10 = hasOwnProp$a;
+	var main$_ = hasOwnProp$a;
 
 	/**
 	* @license Apache-2.0
@@ -934,12 +934,12 @@
 
 	// MODULES //
 
-	var hasOwnProp$9 = main$10;
+	var hasOwnProp$9 = main$_;
 
 
 	// EXPORTS //
 
-	var lib$1j = hasOwnProp$9;
+	var lib$1i = hasOwnProp$9;
 
 	/**
 	* @license Apache-2.0
@@ -988,7 +988,7 @@
 
 	// MODULES //
 
-	var hasOwnProp$8 = lib$1j;
+	var hasOwnProp$8 = lib$1i;
 	var toStringTag = tostringtag;
 	var toStr = tostring$1;
 
@@ -1089,7 +1089,7 @@
 
 	// MODULES //
 
-	var hasToStringTag$3 = lib$1k;
+	var hasToStringTag$3 = lib$1j;
 	var builtin$h = native_class;
 	var polyfill$y = polyfill$z;
 
@@ -1106,7 +1106,7 @@
 
 	// EXPORTS //
 
-	var lib$1i = nativeClass$i;
+	var lib$1h = nativeClass$i;
 
 	/**
 	* @license Apache-2.0
@@ -1159,7 +1159,7 @@
 
 	// EXPORTS //
 
-	var main$$ = reFunctionName$2;
+	var main$Z = reFunctionName$2;
 
 	/**
 	* @license Apache-2.0
@@ -1181,7 +1181,7 @@
 
 	// MODULES //
 
-	var reFunctionName$1 = main$$;
+	var reFunctionName$1 = main$Z;
 
 
 	// MAIN //
@@ -1266,8 +1266,8 @@
 
 	// MODULES //
 
-	var setReadOnly$9 = lib$1m;
-	var reFunctionName = main$$;
+	var setReadOnly$9 = lib$1l;
+	var reFunctionName = main$Z;
 	var REGEXP$1 = regexp$2;
 
 
@@ -1278,7 +1278,7 @@
 
 	// EXPORTS //
 
-	var lib$1h = reFunctionName;
+	var lib$1g = reFunctionName;
 
 	/**
 	* @license Apache-2.0
@@ -1300,7 +1300,7 @@
 
 	// MODULES //
 
-	var nativeClass$h = lib$1i;
+	var nativeClass$h = lib$1h;
 
 
 	// VARIABLES //
@@ -1340,7 +1340,7 @@
 
 	// EXPORTS //
 
-	var main$_ = f;
+	var main$Y = f;
 
 	/**
 	* @license Apache-2.0
@@ -1377,12 +1377,12 @@
 
 	// MODULES //
 
-	var isArray$6 = main$_;
+	var isArray$6 = main$Y;
 
 
 	// EXPORTS //
 
-	var lib$1g = isArray$6;
+	var lib$1f = isArray$6;
 
 	/**
 	* @license Apache-2.0
@@ -1404,7 +1404,7 @@
 
 	// MODULES //
 
-	var isArray$5 = lib$1g;
+	var isArray$5 = lib$1f;
 
 
 	// MAIN //
@@ -1513,7 +1513,7 @@
 
 	// EXPORTS //
 
-	var lib$1f = arrayfcn;
+	var lib$1e = arrayfcn;
 
 	/**
 	* @license Apache-2.0
@@ -1561,7 +1561,7 @@
 
 	// EXPORTS //
 
-	var main$Z = isObjectLike$3;
+	var main$X = isObjectLike$3;
 
 	/**
 	* @license Apache-2.0
@@ -1610,9 +1610,9 @@
 
 	// MODULES //
 
-	var setReadOnly$8 = lib$1m;
-	var arrayfun = lib$1f;
-	var isObjectLike$2 = main$Z;
+	var setReadOnly$8 = lib$1l;
+	var arrayfun = lib$1e;
+	var isObjectLike$2 = main$X;
 
 
 	// MAIN //
@@ -1622,7 +1622,7 @@
 
 	// EXPORTS //
 
-	var lib$1e = isObjectLike$2;
+	var lib$1d = isObjectLike$2;
 
 	/**
 	* @license Apache-2.0
@@ -1644,7 +1644,7 @@
 
 	// MODULES //
 
-	var isObjectLike$1 = lib$1e;
+	var isObjectLike$1 = lib$1d;
 
 
 	// MAIN //
@@ -1671,7 +1671,7 @@
 	* var v = isBuffer( [] );
 	* // returns false
 	*/
-	function isBuffer$7( value ) {
+	function isBuffer$6( value ) {
 		return (
 			isObjectLike$1( value ) &&
 			(
@@ -1691,7 +1691,7 @@
 
 	// EXPORTS //
 
-	var main$Y = isBuffer$7;
+	var main$W = isBuffer$6;
 
 	/**
 	* @license Apache-2.0
@@ -1728,12 +1728,12 @@
 
 	// MODULES //
 
-	var isBuffer$6 = main$Y;
+	var isBuffer$5 = main$W;
 
 
 	// EXPORTS //
 
-	var lib$1d = isBuffer$6;
+	var lib$1c = isBuffer$5;
 
 	/**
 	* @license Apache-2.0
@@ -1755,9 +1755,9 @@
 
 	// MODULES //
 
-	var nativeClass$g = lib$1i;
-	var RE = lib$1h.REGEXP;
-	var isBuffer$5 = lib$1d;
+	var nativeClass$g = lib$1h;
+	var RE = lib$1g.REGEXP;
+	var isBuffer$4 = lib$1c;
 
 
 	// MAIN //
@@ -1803,7 +1803,7 @@
 				return match[ 1 ];
 			}
 		}
-		if ( isBuffer$5( v ) ) {
+		if ( isBuffer$4( v ) ) {
 			return 'Buffer';
 		}
 		return name;
@@ -1812,7 +1812,7 @@
 
 	// EXPORTS //
 
-	var main$X = constructorName$1;
+	var main$V = constructorName$1;
 
 	/**
 	* @license Apache-2.0
@@ -1852,12 +1852,12 @@
 
 	// MODULES //
 
-	var constructorName = main$X;
+	var constructorName = main$V;
 
 
 	// EXPORTS //
 
-	var lib$1c = constructorName;
+	var lib$1b = constructorName;
 
 	/**
 	* @license Apache-2.0
@@ -1879,7 +1879,7 @@
 
 	// MODULES //
 
-	var ctorName$1 = lib$1c;
+	var ctorName$1 = lib$1b;
 
 
 	// NOTES //
@@ -1954,7 +1954,7 @@
 
 	// MODULES //
 
-	var ctorName = lib$1c;
+	var ctorName = lib$1b;
 
 
 	// MAIN //
@@ -2016,12 +2016,12 @@
 
 	// MAIN //
 
-	var main$W = ( usePolyfill() ) ? polyfill$w : typeOf$3;
+	var main$U = ( usePolyfill() ) ? polyfill$w : typeOf$3;
 
 
 	// EXPORTS //
 
-	var lib$1b = main$W;
+	var lib$1a = main$U;
 
 	/**
 	* @license Apache-2.0
@@ -2043,7 +2043,7 @@
 
 	// MODULES //
 
-	var typeOf$2 = lib$1b;
+	var typeOf$2 = lib$1a;
 
 
 	// MAIN //
@@ -2070,7 +2070,7 @@
 
 	// EXPORTS //
 
-	var main$V = isFunction$7;
+	var main$T = isFunction$7;
 
 	/**
 	* @license Apache-2.0
@@ -2108,12 +2108,12 @@
 
 	// MODULES //
 
-	var isFunction$6 = main$V;
+	var isFunction$6 = main$T;
 
 
 	// EXPORTS //
 
-	var lib$1a = isFunction$6;
+	var lib$19 = isFunction$6;
 
 	/**
 	* @license Apache-2.0
@@ -2135,7 +2135,7 @@
 
 	// MODULES //
 
-	var isFunction$5 = lib$1a;
+	var isFunction$5 = lib$19;
 
 
 	// MAIN //
@@ -2173,7 +2173,7 @@
 
 	// EXPORTS //
 
-	var main$U = isIteratorLike$1;
+	var main$S = isIteratorLike$1;
 
 	/**
 	* @license Apache-2.0
@@ -2213,12 +2213,12 @@
 
 	// MODULES //
 
-	var isIterator = main$U;
+	var isIterator = main$S;
 
 
 	// EXPORTS //
 
-	var lib$19 = isIterator;
+	var lib$18 = isIterator;
 
 	/**
 	* @license Apache-2.0
@@ -2240,7 +2240,7 @@
 
 	// MODULES //
 
-	var hasOwnProp$7 = lib$1j;
+	var hasOwnProp$7 = lib$1i;
 
 
 	// MAIN //
@@ -2266,7 +2266,7 @@
 
 	// EXPORTS //
 
-	var main$T = hasIteratorSymbolSupport$2;
+	var main$R = hasIteratorSymbolSupport$2;
 
 	/**
 	* @license Apache-2.0
@@ -2300,12 +2300,12 @@
 
 	// MODULES //
 
-	var hasIteratorSymbolSupport$1 = main$T;
+	var hasIteratorSymbolSupport$1 = main$R;
 
 
 	// EXPORTS //
 
-	var lib$18 = hasIteratorSymbolSupport$1;
+	var lib$17 = hasIteratorSymbolSupport$1;
 
 	/**
 	* @license Apache-2.0
@@ -2327,7 +2327,7 @@
 
 	// MODULES //
 
-	var hasIteratorSymbolSupport = lib$18;
+	var hasIteratorSymbolSupport = lib$17;
 
 
 	// MAIN //
@@ -2383,7 +2383,7 @@
 
 	// EXPORTS //
 
-	var main$S = IteratorSymbol$1;
+	var main$Q = IteratorSymbol$1;
 
 	/**
 	* @license Apache-2.0
@@ -2452,12 +2452,12 @@
 
 	// MAIN //
 
-	var IteratorSymbol = main$S;
+	var IteratorSymbol = main$Q;
 
 
 	// EXPORTS //
 
-	var lib$17 = IteratorSymbol;
+	var lib$16 = IteratorSymbol;
 
 	/**
 	* @license Apache-2.0
@@ -2592,8 +2592,8 @@
 
 	// MODULES //
 
-	var hasToStringTag$2 = lib$1k;
-	var nativeClass$f = lib$1i;
+	var hasToStringTag$2 = lib$1j;
+	var nativeClass$f = lib$1h;
 	var test$5 = try2valueof;
 
 
@@ -2683,7 +2683,7 @@
 
 	// EXPORTS //
 
-	var main$R = isString$7;
+	var main$P = isString$7;
 
 	/**
 	* @license Apache-2.0
@@ -2741,8 +2741,8 @@
 
 	// MODULES //
 
-	var setReadOnly$7 = lib$1m;
-	var isString$6 = main$R;
+	var setReadOnly$7 = lib$1l;
+	var isString$6 = main$P;
 	var isPrimitive$8 = primitive$4;
 	var isObject$c = object$4;
 
@@ -2755,7 +2755,7 @@
 
 	// EXPORTS //
 
-	var lib$16 = isString$6;
+	var lib$15 = isString$6;
 
 	/**
 	* @license Apache-2.0
@@ -2777,7 +2777,7 @@
 
 	// MODULES //
 
-	var isString$5 = lib$16.isPrimitive;
+	var isString$5 = lib$15.isPrimitive;
 
 
 	// VARIABLES //
@@ -2835,7 +2835,7 @@
 
 	// EXPORTS //
 
-	var main$Q = rescape$2;
+	var main$O = rescape$2;
 
 	/**
 	* @license Apache-2.0
@@ -2869,12 +2869,12 @@
 
 	// MODULES //
 
-	var rescape$1 = main$Q;
+	var rescape$1 = main$O;
 
 
 	// EXPORTS //
 
-	var lib$15 = rescape$1;
+	var lib$14 = rescape$1;
 
 	/**
 	* @license Apache-2.0
@@ -2967,8 +2967,8 @@
 
 	// MODULES //
 
-	var hasToStringTag$1 = lib$1k;
-	var nativeClass$e = lib$1i;
+	var hasToStringTag$1 = lib$1j;
+	var nativeClass$e = lib$1h;
 	var test$3 = try2exec;
 
 
@@ -3009,7 +3009,7 @@
 
 	// EXPORTS //
 
-	var main$P = isRegExp$2;
+	var main$N = isRegExp$2;
 
 	/**
 	* @license Apache-2.0
@@ -3046,12 +3046,12 @@
 
 	// MODULES //
 
-	var isRegExp$1 = main$P;
+	var isRegExp$1 = main$N;
 
 
 	// EXPORTS //
 
-	var lib$14 = isRegExp$1;
+	var lib$13 = isRegExp$1;
 
 	/**
 	* @license Apache-2.0
@@ -3073,10 +3073,10 @@
 
 	// MODULES //
 
-	var rescape = lib$15;
-	var isFunction$4 = lib$1a;
-	var isString$4 = lib$16.isPrimitive;
-	var isRegExp = lib$14;
+	var rescape = lib$14;
+	var isFunction$4 = lib$19;
+	var isString$4 = lib$15.isPrimitive;
+	var isRegExp = lib$13;
 
 
 	// MAIN //
@@ -3178,7 +3178,7 @@
 
 	// EXPORTS //
 
-	var lib$13 = replace$1;
+	var lib$12 = replace$1;
 
 	/**
 	* @license Apache-2.0
@@ -3284,7 +3284,7 @@
 
 	// EXPORTS //
 
-	var lib$12 = Number$4;
+	var lib$11 = Number$4;
 
 	/**
 	* @license Apache-2.0
@@ -3306,7 +3306,7 @@
 
 	// MODULES //
 
-	var Number$3 = lib$12;
+	var Number$3 = lib$11;
 
 
 	// MAIN //
@@ -3385,9 +3385,9 @@
 
 	// MODULES //
 
-	var hasToStringTag = lib$1k;
-	var nativeClass$d = lib$1i;
-	var Number$2 = lib$12;
+	var hasToStringTag = lib$1j;
+	var nativeClass$d = lib$1h;
+	var Number$2 = lib$11;
 	var test$1 = try2serialize;
 
 
@@ -3485,7 +3485,7 @@
 
 	// EXPORTS //
 
-	var main$O = isNumber$5;
+	var main$M = isNumber$5;
 
 	/**
 	* @license Apache-2.0
@@ -3549,8 +3549,8 @@
 
 	// MODULES //
 
-	var setReadOnly$6 = lib$1m;
-	var isNumber$4 = main$O;
+	var setReadOnly$6 = lib$1l;
+	var isNumber$4 = main$M;
 	var isPrimitive$6 = primitive$3;
 	var isObject$a = object$3;
 
@@ -3563,7 +3563,7 @@
 
 	// EXPORTS //
 
-	var lib$11 = isNumber$4;
+	var lib$10 = isNumber$4;
 
 	/**
 	* @license Apache-2.0
@@ -3618,7 +3618,7 @@
 
 	// EXPORTS //
 
-	var lib$10 = FLOAT64_PINF;
+	var lib$$ = FLOAT64_PINF;
 
 	/**
 	* @license Apache-2.0
@@ -3651,7 +3651,7 @@
 
 	// MODULES //
 
-	var Number$1 = lib$12;
+	var Number$1 = lib$11;
 
 
 	// MAIN //
@@ -3677,7 +3677,7 @@
 
 	// EXPORTS //
 
-	var lib$$ = FLOAT64_NINF;
+	var lib$_ = FLOAT64_NINF;
 
 	/**
 	* @license Apache-2.0
@@ -3726,7 +3726,7 @@
 
 	// EXPORTS //
 
-	var main$N = floor$2;
+	var main$L = floor$2;
 
 	/**
 	* @license Apache-2.0
@@ -3769,12 +3769,12 @@
 
 	// MODULES //
 
-	var floor$1 = main$N;
+	var floor$1 = main$L;
 
 
 	// EXPORTS //
 
-	var lib$_ = floor$1;
+	var lib$Z = floor$1;
 
 	/**
 	* @license Apache-2.0
@@ -3796,7 +3796,7 @@
 
 	// MODULES //
 
-	var floor = lib$_;
+	var floor = lib$Z;
 
 
 	// MAIN //
@@ -3864,7 +3864,7 @@
 
 	// EXPORTS //
 
-	var lib$Z = isInteger$b;
+	var lib$Y = isInteger$b;
 
 	/**
 	* @license Apache-2.0
@@ -3886,9 +3886,9 @@
 
 	// MODULES //
 
-	var PINF$2 = lib$10;
-	var NINF = lib$$;
-	var isInt$2 = lib$Z;
+	var PINF$2 = lib$$;
+	var NINF = lib$_;
+	var isInt$2 = lib$Y;
 
 
 	// MAIN //
@@ -3933,7 +3933,7 @@
 
 	// MODULES //
 
-	var isNumber$3 = lib$11.isPrimitive;
+	var isNumber$3 = lib$10.isPrimitive;
 	var isInt$1 = integer;
 
 
@@ -3985,7 +3985,7 @@
 
 	// MODULES //
 
-	var isNumber$2 = lib$11.isObject;
+	var isNumber$2 = lib$10.isObject;
 	var isInt = integer;
 
 
@@ -4072,7 +4072,7 @@
 
 	// EXPORTS //
 
-	var main$M = isInteger$7;
+	var main$K = isInteger$7;
 
 	/**
 	* @license Apache-2.0
@@ -4135,8 +4135,8 @@
 
 	// MODULES //
 
-	var setReadOnly$5 = lib$1m;
-	var isInteger$6 = main$M;
+	var setReadOnly$5 = lib$1l;
+	var isInteger$6 = main$K;
 	var isPrimitive$4 = primitive$2;
 	var isObject$8 = object$2;
 
@@ -4149,7 +4149,7 @@
 
 	// EXPORTS //
 
-	var lib$Y = isInteger$6;
+	var lib$X = isInteger$6;
 
 	/**
 	* @license Apache-2.0
@@ -4171,7 +4171,7 @@
 
 	// MODULES //
 
-	var isInteger$5 = lib$Y.isPrimitive;
+	var isInteger$5 = lib$X.isPrimitive;
 
 
 	// MAIN //
@@ -4222,7 +4222,7 @@
 
 	// MODULES //
 
-	var isInteger$4 = lib$Y.isObject;
+	var isInteger$4 = lib$X.isObject;
 
 
 	// MAIN //
@@ -4312,7 +4312,7 @@
 
 	// EXPORTS //
 
-	var main$L = isNonNegativeInteger$2;
+	var main$J = isNonNegativeInteger$2;
 
 	/**
 	* @license Apache-2.0
@@ -4376,8 +4376,8 @@
 
 	// MODULES //
 
-	var setReadOnly$4 = lib$1m;
-	var isNonNegativeInteger$1 = main$L;
+	var setReadOnly$4 = lib$1l;
+	var isNonNegativeInteger$1 = main$J;
 	var isPrimitive$2 = primitive$1;
 	var isObject$6 = object$1;
 
@@ -4390,7 +4390,7 @@
 
 	// EXPORTS //
 
-	var lib$X = isNonNegativeInteger$1;
+	var lib$W = isNonNegativeInteger$1;
 
 	/**
 	* @license Apache-2.0
@@ -4474,7 +4474,7 @@
 
 	// MODULES //
 
-	var nativeClass$c = lib$1i;
+	var nativeClass$c = lib$1h;
 	var getProto$2 = proto;
 
 
@@ -4528,7 +4528,7 @@
 
 	// MODULES //
 
-	var isFunction$3 = lib$1a;
+	var isFunction$3 = lib$19;
 	var builtin$g = native$1;
 	var polyfill$u = polyfill$v;
 
@@ -4637,7 +4637,7 @@
 
 	// EXPORTS //
 
-	var lib$W = getPrototype;
+	var lib$V = getPrototype;
 
 	/**
 	* @license Apache-2.0
@@ -4659,8 +4659,8 @@
 
 	// MODULES //
 
-	var getPrototypeOf$2 = lib$W;
-	var nativeClass$b = lib$1i;
+	var getPrototypeOf$2 = lib$V;
+	var nativeClass$b = lib$1h;
 
 
 	// MAIN //
@@ -4700,7 +4700,7 @@
 
 	// EXPORTS //
 
-	var main$K = isError$2;
+	var main$I = isError$2;
 
 	/**
 	* @license Apache-2.0
@@ -4737,12 +4737,12 @@
 
 	// MODULES //
 
-	var isError$1 = main$K;
+	var isError$1 = main$I;
 
 
 	// EXPORTS //
 
-	var lib$V = isError$1;
+	var lib$U = isError$1;
 
 	/**
 	* @license Apache-2.0
@@ -4785,7 +4785,7 @@
 
 	// EXPORTS //
 
-	var main$J = reRegExp$3;
+	var main$H = reRegExp$3;
 
 	/**
 	* @license Apache-2.0
@@ -4807,7 +4807,7 @@
 
 	// MODULES //
 
-	var reRegExp$2 = main$J;
+	var reRegExp$2 = main$H;
 
 
 	// MAIN //
@@ -4901,8 +4901,8 @@
 
 	// MAIN //
 
-	var setReadOnly$3 = lib$1m;
-	var reRegExp$1 = main$J;
+	var setReadOnly$3 = lib$1l;
+	var reRegExp$1 = main$H;
 	var REGEXP = regexp$1;
 
 
@@ -4913,12 +4913,12 @@
 
 	// EXPORTS //
 
-	var lib$U = reRegExp$1;
+	var lib$T = reRegExp$1;
 
 
 	// EXPORTS //
 
-	lib$U = reRegExp$1;
+	lib$T = reRegExp$1;
 
 	/**
 	* @license Apache-2.0
@@ -4940,8 +4940,8 @@
 
 	// MODULES //
 
-	var isString$3 = lib$16.isPrimitive;
-	var reRegExp = lib$U;
+	var isString$3 = lib$15.isPrimitive;
+	var reRegExp = lib$T;
 
 
 	// MAIN //
@@ -5010,7 +5010,7 @@
 
 	// EXPORTS //
 
-	var lib$T = reFromString;
+	var lib$S = reFromString;
 
 	/**
 	* @license Apache-2.0
@@ -5053,7 +5053,7 @@
 
 	// EXPORTS //
 
-	var main$I = isnan$8;
+	var main$G = isnan$8;
 
 	/**
 	* @license Apache-2.0
@@ -5090,12 +5090,12 @@
 
 	// MODULES //
 
-	var isnan$7 = main$I;
+	var isnan$7 = main$G;
 
 
 	// EXPORTS //
 
-	var lib$S = isnan$7;
+	var lib$R = isnan$7;
 
 	/**
 	* @license Apache-2.0
@@ -5117,8 +5117,8 @@
 
 	// MODULES //
 
-	var isNumber$1 = lib$11.isPrimitive;
-	var isNan$1 = lib$S;
+	var isNumber$1 = lib$10.isPrimitive;
+	var isNan$1 = lib$R;
 
 
 	// MAIN //
@@ -5173,8 +5173,8 @@
 
 	// MODULES //
 
-	var isNumber = lib$11.isObject;
-	var isNan = lib$S;
+	var isNumber = lib$10.isObject;
+	var isNan = lib$R;
 
 
 	// MAIN //
@@ -5260,7 +5260,7 @@
 
 	// EXPORTS //
 
-	var main$H = isnan$4;
+	var main$F = isnan$4;
 
 	/**
 	* @license Apache-2.0
@@ -5324,8 +5324,8 @@
 
 	// MODULES //
 
-	var setReadOnly$2 = lib$1m;
-	var isnan$3 = main$H;
+	var setReadOnly$2 = lib$1l;
+	var isnan$3 = main$F;
 	var isPrimitive = primitive;
 	var isObject$4 = object;
 
@@ -5338,7 +5338,7 @@
 
 	// EXPORTS //
 
-	var lib$R = isnan$3;
+	var lib$Q = isnan$3;
 
 	/**
 	* @license Apache-2.0
@@ -5386,7 +5386,7 @@
 
 	// EXPORTS //
 
-	var lib$Q = MAX_TYPED_ARRAY_LENGTH;
+	var lib$P = MAX_TYPED_ARRAY_LENGTH;
 
 	/**
 	* @license Apache-2.0
@@ -5408,8 +5408,8 @@
 
 	// MODULES //
 
-	var isInteger$3 = lib$Z;
-	var MAX_LENGTH$1 = lib$Q;
+	var isInteger$3 = lib$Y;
+	var MAX_LENGTH$1 = lib$P;
 
 
 	// MAIN //
@@ -5442,7 +5442,7 @@
 
 	// EXPORTS //
 
-	var main$G = isCollection$2;
+	var main$E = isCollection$2;
 
 	/**
 	* @license Apache-2.0
@@ -5479,12 +5479,12 @@
 
 	// MODULES //
 
-	var isCollection$1 = main$G;
+	var isCollection$1 = main$E;
 
 
 	// EXPORTS //
 
-	var lib$P = isCollection$1;
+	var lib$O = isCollection$1;
 
 	/**
 	* @license Apache-2.0
@@ -5506,10 +5506,10 @@
 
 	// MODULES //
 
-	var isnan$2 = lib$R;
-	var isCollection = lib$P;
-	var isString$2 = lib$16.isPrimitive;
-	var isInteger$2 = lib$Y.isPrimitive;
+	var isnan$2 = lib$Q;
+	var isCollection = lib$O;
+	var isString$2 = lib$15.isPrimitive;
+	var isInteger$2 = lib$X.isPrimitive;
 
 
 	// MAIN //
@@ -5687,7 +5687,7 @@
 
 	// EXPORTS //
 
-	var lib$O = indexOf$2;
+	var lib$N = indexOf$2;
 
 	/**
 	* @license Apache-2.0
@@ -5842,7 +5842,7 @@
 
 	// MODULES //
 
-	var nativeClass$a = lib$1i;
+	var nativeClass$a = lib$1h;
 
 
 	// MAIN //
@@ -5873,7 +5873,7 @@
 
 	// EXPORTS //
 
-	var main$F = isArguments$5;
+	var main$D = isArguments$5;
 
 	/**
 	* @license Apache-2.0
@@ -5895,7 +5895,7 @@
 
 	// MODULES //
 
-	var isArguments$4 = main$F;
+	var isArguments$4 = main$D;
 
 
 	// VARIABLES //
@@ -6052,9 +6052,9 @@
 
 	// MODULES //
 
-	var isString$1 = lib$16;
-	var isnan$1 = lib$R.isPrimitive;
-	var isInteger$1 = lib$Y.isPrimitive;
+	var isString$1 = lib$15;
+	var isnan$1 = lib$Q.isPrimitive;
+	var isInteger$1 = lib$X.isPrimitive;
 	var isEnum = native;
 	var hasStringEnumBug = has_string_enumerability_bug;
 
@@ -6109,7 +6109,7 @@
 
 	// EXPORTS //
 
-	var main$E = isEnumerableProperty$4;
+	var main$C = isEnumerableProperty$4;
 
 	/**
 	* @license Apache-2.0
@@ -6150,12 +6150,12 @@
 
 	// MODULES //
 
-	var isEnumerableProperty$3 = main$E;
+	var isEnumerableProperty$3 = main$C;
 
 
 	// EXPORTS //
 
-	var lib$N = isEnumerableProperty$3;
+	var lib$M = isEnumerableProperty$3;
 
 	/**
 	* @license Apache-2.0
@@ -6215,7 +6215,7 @@
 
 	// EXPORTS //
 
-	var lib$M = UINT32_MAX$1;
+	var lib$L = UINT32_MAX$1;
 
 	/**
 	* @license Apache-2.0
@@ -6237,11 +6237,11 @@
 
 	// MODULES //
 
-	var hasOwnProp$6 = lib$1j;
-	var isEnumerableProperty$2 = lib$N;
-	var isArray$4 = lib$1g;
-	var isInteger = lib$Z;
-	var MAX_LENGTH = lib$M;
+	var hasOwnProp$6 = lib$1i;
+	var isEnumerableProperty$2 = lib$M;
+	var isArray$4 = lib$1f;
+	var isInteger = lib$Y;
+	var MAX_LENGTH = lib$L;
 
 
 	// MAIN //
@@ -6324,7 +6324,7 @@
 	// MODULES //
 
 	var hasArgumentsClass = detect_1;
-	var main$D = main$F;
+	var main$B = main$D;
 	var polyfill$s = polyfill$t;
 
 
@@ -6332,7 +6332,7 @@
 
 	var isArguments$2;
 	if ( hasArgumentsClass ) {
-		isArguments$2 = main$D;
+		isArguments$2 = main$B;
 	} else {
 		isArguments$2 = polyfill$s;
 	}
@@ -6340,7 +6340,7 @@
 
 	// EXPORTS //
 
-	var lib$L = isArguments$2;
+	var lib$K = isArguments$2;
 
 	/**
 	* @license Apache-2.0
@@ -6362,7 +6362,7 @@
 
 	// MODULES //
 
-	var isArguments$1 = lib$L;
+	var isArguments$1 = lib$K;
 	var builtin$e = builtin$f;
 
 
@@ -6472,7 +6472,7 @@
 
 	// EXPORTS //
 
-	var lib$K = noop$1;
+	var lib$J = noop$1;
 
 	/**
 	* @license Apache-2.0
@@ -6494,8 +6494,8 @@
 
 	// MODULES //
 
-	var isEnumerableProperty$1 = lib$N;
-	var noop = lib$K;
+	var isEnumerableProperty$1 = lib$M;
+	var noop = lib$J;
 
 
 	// MAIN //
@@ -6528,7 +6528,7 @@
 
 	// MODULES //
 
-	var isEnumerableProperty = lib$N;
+	var isEnumerableProperty = lib$M;
 
 
 	// VARIABLES //
@@ -6633,9 +6633,9 @@
 
 	// MODULES //
 
-	var hasOwnProp$5 = lib$1j;
-	var indexOf$1 = lib$O;
-	var typeOf$1 = lib$1b;
+	var hasOwnProp$5 = lib$1i;
+	var indexOf$1 = lib$N;
+	var typeOf$1 = lib$1a;
 	var isConstructorPrototype$2 = is_constructor_prototype;
 	var EXCLUDED_KEYS = require$$4;
 	var win = window_1;
@@ -6787,9 +6787,9 @@
 
 	// MODULES //
 
-	var isObjectLike = lib$1e;
-	var hasOwnProp$4 = lib$1j;
-	var isArguments = lib$L;
+	var isObjectLike = lib$1d;
+	var hasOwnProp$4 = lib$1i;
+	var isArguments = lib$K;
 	var HAS_ENUM_PROTO_BUG = has_enumerable_prototype_bug;
 	var HAS_NON_ENUM_PROPS_BUG = has_non_enumerable_properties_bug;
 	var isConstructorPrototype = is_constructor_prototype_wrapper;
@@ -6928,7 +6928,7 @@
 
 	// EXPORTS //
 
-	var main$C = keys$2;
+	var main$A = keys$2;
 
 	/**
 	* @license Apache-2.0
@@ -6967,12 +6967,12 @@
 
 	// MODULES //
 
-	var keys$1 = main$C;
+	var keys$1 = main$A;
 
 
 	// EXPORTS //
 
-	var lib$J = keys$1;
+	var lib$I = keys$1;
 
 	/**
 	* @license Apache-2.0
@@ -7075,7 +7075,7 @@
 
 	// MODULES //
 
-	var keys = lib$J;
+	var keys = lib$I;
 
 
 	// MAIN //
@@ -7152,17 +7152,17 @@
 
 	// MAIN //
 
-	var main$B;
+	var main$z;
 	if ( HAS_BUILTIN$1 ) {
-		main$B = builtin$b;
+		main$z = builtin$b;
 	} else {
-		main$B = polyfill$o;
+		main$z = polyfill$o;
 	}
 
 
 	// EXPORTS //
 
-	var lib$I = main$B;
+	var lib$H = main$z;
 
 	/**
 	* @license Apache-2.0
@@ -7272,7 +7272,7 @@
 
 	// MODULES //
 
-	var hasOwnProp$3 = lib$1j;
+	var hasOwnProp$3 = lib$1i;
 
 
 	// MAIN //
@@ -7361,17 +7361,26 @@
 
 	// MAIN //
 
-	var main$A;
+	var main$y;
 	if ( HAS_BUILTIN ) {
-		main$A = builtin$9;
+		main$y = builtin$9;
 	} else {
-		main$A = polyfill$m;
+		main$y = polyfill$m;
 	}
 
 
 	// EXPORTS //
 
-	var lib$H = main$A;
+	var lib$G = main$y;
+
+	var _rollupPluginShim1 = () => false;
+
+	var _rollupPluginShim1$1 = /*#__PURE__*/Object.freeze({
+		__proto__: null,
+		'default': _rollupPluginShim1
+	});
+
+	var require$$0$1 = /*@__PURE__*/getAugmentedNamespace(_rollupPluginShim1$1);
 
 	var global$1 = (typeof global !== "undefined" ? global :
 	  typeof self !== "undefined" ? self :
@@ -7878,7 +7887,7 @@
 	  }
 	  return Buffer$3.alloc(+length)
 	}
-	Buffer$3.isBuffer = isBuffer$4;
+	Buffer$3.isBuffer = isBuffer$3;
 	function internalIsBuffer (b) {
 	  return !!(b != null && b._isBuffer)
 	}
@@ -9344,7 +9353,7 @@
 	// the following is from is-buffer, also by Feross Aboukhadijeh and with same lisence
 	// The _isBuffer check is for Safari 5-7 support, because it's missing
 	// Object.prototype.constructor. Remove this eventually
-	function isBuffer$4(obj) {
+	function isBuffer$3(obj) {
 	  return obj != null && (!!obj._isBuffer || isFastBuffer(obj) || isSlowBuffer(obj))
 	}
 
@@ -9362,130 +9371,9 @@
 		Buffer: Buffer$3,
 		INSPECT_MAX_BYTES: INSPECT_MAX_BYTES,
 		SlowBuffer: SlowBuffer,
-		isBuffer: isBuffer$4,
+		isBuffer: isBuffer$3,
 		kMaxLength: _kMaxLength
 	});
-
-	// MAIN //
-
-	var main$z = ( typeof Buffer$3 === 'function' ) ? Buffer$3 : null; // eslint-disable-line stdlib/require-globals
-
-
-	// EXPORTS //
-
-	module.exports = main$z;
-
-	var buffer$1 = /*#__PURE__*/Object.freeze({
-		__proto__: null
-	});
-
-	var require$$1$1 = /*@__PURE__*/getAugmentedNamespace(buffer$1);
-
-	/**
-	* @license Apache-2.0
-	*
-	* Copyright (c) 2018 The Stdlib Authors.
-	*
-	* Licensed under the Apache License, Version 2.0 (the "License");
-	* you may not use this file except in compliance with the License.
-	* You may obtain a copy of the License at
-	*
-	*    http://www.apache.org/licenses/LICENSE-2.0
-	*
-	* Unless required by applicable law or agreed to in writing, software
-	* distributed under the License is distributed on an "AS IS" BASIS,
-	* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-	* See the License for the specific language governing permissions and
-	* limitations under the License.
-	*/
-
-	// MODULES //
-
-	var isBuffer$3 = lib$1d;
-	var GlobalBuffer = require$$1$1;
-
-
-	// MAIN //
-
-	/**
-	* Tests for native `Buffer` support.
-	*
-	* @returns {boolean} boolean indicating if an environment has `Buffer` support
-	*
-	* @example
-	* var bool = hasNodeBufferSupport();
-	* // returns <boolean>
-	*/
-	function hasNodeBufferSupport$2() {
-		var bool;
-		var b;
-
-		if ( typeof GlobalBuffer !== 'function' ) {
-			return false;
-		}
-		// Test basic support...
-		try {
-			if ( typeof GlobalBuffer.from === 'function' ) {
-				b = GlobalBuffer.from( [ 1, 2, 3, 4 ] );
-			} else {
-				b = new GlobalBuffer( [ 1, 2, 3, 4 ] ); // Note: this is deprecated behavior starting in Node v6 (see https://nodejs.org/api/buffer.html#buffer_new_buffer_array)
-			}
-			bool = (
-				isBuffer$3( b ) &&
-				b[ 0 ] === 1 &&
-				b[ 1 ] === 2 &&
-				b[ 2 ] === 3 &&
-				b[ 3 ] === 4
-			);
-		} catch ( err ) { // eslint-disable-line no-unused-vars
-			bool = false;
-		}
-		return bool;
-	}
-
-
-	// EXPORTS //
-
-	var main$y = hasNodeBufferSupport$2;
-
-	/**
-	* @license Apache-2.0
-	*
-	* Copyright (c) 2018 The Stdlib Authors.
-	*
-	* Licensed under the Apache License, Version 2.0 (the "License");
-	* you may not use this file except in compliance with the License.
-	* You may obtain a copy of the License at
-	*
-	*    http://www.apache.org/licenses/LICENSE-2.0
-	*
-	* Unless required by applicable law or agreed to in writing, software
-	* distributed under the License is distributed on an "AS IS" BASIS,
-	* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-	* See the License for the specific language governing permissions and
-	* limitations under the License.
-	*/
-
-	/**
-	* Test for native `Buffer` support.
-	*
-	* @module @stdlib/assert-has-node-buffer-support
-	*
-	* @example
-	* var hasNodeBufferSupport = require( '@stdlib/assert-has-node-buffer-support' );
-	*
-	* var bool = hasNodeBufferSupport();
-	* // returns <boolean>
-	*/
-
-	// MODULES //
-
-	var hasNodeBufferSupport$1 = main$y;
-
-
-	// EXPORTS //
-
-	var lib$G = hasNodeBufferSupport$1;
 
 	var require$$0 = /*@__PURE__*/getAugmentedNamespace(_polyfillNode_buffer);
 
@@ -9584,7 +9472,7 @@
 
 	// MODULES //
 
-	var hasNodeBufferSupport = lib$G;
+	var hasNodeBufferSupport = require$$0$1;
 	var main$x = buffer;
 	var polyfill$k = polyfill_1$9;
 
@@ -9623,7 +9511,7 @@
 
 	// MODULES //
 
-	var isFunction$2 = lib$1a;
+	var isFunction$2 = lib$19;
 	var Buffer$2 = lib$F;
 
 
@@ -9656,7 +9544,7 @@
 
 	// MODULES //
 
-	var isBuffer$2 = lib$1d;
+	var isBuffer$2 = lib$1c;
 	var Buffer$1 = lib$F;
 
 
@@ -9710,7 +9598,7 @@
 
 	// MODULES //
 
-	var isBuffer$1 = lib$1d;
+	var isBuffer$1 = lib$1c;
 	var Buffer = lib$F;
 
 
@@ -9819,7 +9707,7 @@
 
 	// MODULES //
 
-	var nativeClass$9 = lib$1i;
+	var nativeClass$9 = lib$1h;
 
 
 	// VARIABLES //
@@ -10282,7 +10170,7 @@
 
 	// MODULES //
 
-	var nativeClass$8 = lib$1i;
+	var nativeClass$8 = lib$1h;
 
 
 	// VARIABLES //
@@ -10686,7 +10574,7 @@
 
 	// MODULES //
 
-	var nativeClass$7 = lib$1i;
+	var nativeClass$7 = lib$1h;
 
 
 	// VARIABLES //
@@ -11030,7 +10918,7 @@
 
 	// MODULES //
 
-	var nativeClass$6 = lib$1i;
+	var nativeClass$6 = lib$1h;
 
 
 	// VARIABLES //
@@ -11493,7 +11381,7 @@
 
 	// MODULES //
 
-	var nativeClass$5 = lib$1i;
+	var nativeClass$5 = lib$1h;
 
 
 	// VARIABLES //
@@ -11897,7 +11785,7 @@
 
 	// MODULES //
 
-	var nativeClass$4 = lib$1i;
+	var nativeClass$4 = lib$1h;
 
 
 	// VARIABLES //
@@ -12360,7 +12248,7 @@
 
 	// MODULES //
 
-	var nativeClass$3 = lib$1i;
+	var nativeClass$3 = lib$1h;
 
 
 	// VARIABLES //
@@ -12486,7 +12374,7 @@
 	// MODULES //
 
 	var isUint32Array = lib$d;
-	var UINT32_MAX = lib$M;
+	var UINT32_MAX = lib$L;
 	var GlobalUint32Array = uint32array$2;
 
 
@@ -12704,7 +12592,7 @@
 
 	// MODULES //
 
-	var nativeClass$2 = lib$1i;
+	var nativeClass$2 = lib$1h;
 
 
 	// VARIABLES //
@@ -12830,7 +12718,7 @@
 	// MODULES //
 
 	var isFloat32Array = lib$a;
-	var PINF$1 = lib$10;
+	var PINF$1 = lib$$;
 	var GlobalFloat32Array = float32array$2;
 
 
@@ -13046,7 +12934,7 @@
 
 	// MODULES //
 
-	var nativeClass$1 = lib$1i;
+	var nativeClass$1 = lib$1h;
 
 
 	// VARIABLES //
@@ -13555,18 +13443,18 @@
 
 	// MODULES //
 
-	var hasOwnProp$2 = lib$1j;
-	var isArray$2 = lib$1g;
-	var isBuffer = lib$1d;
-	var isError = lib$V;
-	var typeOf = lib$1b;
-	var regexp = lib$T;
-	var indexOf = lib$O;
-	var objectKeys = lib$J;
-	var propertyNames = lib$I;
-	var propertyDescriptor = lib$H;
-	var getPrototypeOf$1 = lib$W;
-	var defineProperty = lib$1n;
+	var hasOwnProp$2 = lib$1i;
+	var isArray$2 = lib$1f;
+	var isBuffer = lib$1c;
+	var isError = lib$U;
+	var typeOf = lib$1a;
+	var regexp = lib$S;
+	var indexOf = lib$N;
+	var objectKeys = lib$I;
+	var propertyNames = lib$H;
+	var propertyDescriptor = lib$G;
+	var getPrototypeOf$1 = lib$V;
+	var defineProperty = lib$1m;
 	var copyBuffer = lib$E;
 	var typedArrays = typed_arrays;
 
@@ -13860,9 +13748,9 @@
 
 	// MODULES //
 
-	var isArray$1 = lib$1g;
-	var isNonNegativeInteger = lib$X.isPrimitive;
-	var PINF = lib$10;
+	var isArray$1 = lib$1f;
+	var isNonNegativeInteger = lib$W.isPrimitive;
+	var PINF = lib$$;
 	var deepCopy = deep_copy;
 
 
@@ -13990,7 +13878,7 @@
 
 	// MODULES //
 
-	var isArray = lib$1g;
+	var isArray = lib$1f;
 
 
 	// MAIN //
@@ -14085,10 +13973,10 @@
 	// MODULES //
 
 	var isObject$1 = lib$3;
-	var isFunction$1 = lib$1a;
-	var getPrototypeOf = lib$W;
-	var hasOwnProp$1 = lib$1j;
-	var nativeClass = lib$1i;
+	var isFunction$1 = lib$19;
+	var getPrototypeOf = lib$V;
+	var hasOwnProp$1 = lib$1i;
+	var nativeClass = lib$1h;
 
 
 	// VARIABLES //
@@ -14238,8 +14126,8 @@
 	// MODULES //
 
 	var isObject = lib$2;
-	var hasOwnProp = lib$1j;
-	var isString = lib$16.isPrimitive;
+	var hasOwnProp = lib$1i;
+	var isString = lib$15.isPrimitive;
 
 
 	// MAIN //
@@ -14300,7 +14188,7 @@
 
 	// MODULES //
 
-	var replace = lib$13;
+	var replace = lib$12;
 	var copy = lib$4;
 	var validate = validate_1;
 	var defaults$1 = require$$1;
@@ -14439,7 +14327,7 @@
 
 	// MODULES //
 
-	var setReadOnly$1 = lib$1m;
+	var setReadOnly$1 = lib$1l;
 	var formatProdErrorMessage = main$1;
 	var factory = factory_1;
 
@@ -14473,10 +14361,10 @@
 
 	// MODULES //
 
-	var setReadOnly = lib$1m;
-	var isFunction = lib$1a;
-	var isIteratorLike = lib$19;
-	var iteratorSymbol = lib$17;
+	var setReadOnly = lib$1l;
+	var isFunction = lib$19;
+	var isIteratorLike = lib$18;
+	var iteratorSymbol = lib$16;
 	var format = lib$1;
 
 

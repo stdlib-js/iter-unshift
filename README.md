@@ -63,7 +63,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.iterUnshift;
+})();
 })();
 </script>
 ```
@@ -131,6 +133,7 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter-unshift@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 // Create a seeded iterator for generating pseudorandom numbers:
 var rand = randu({
@@ -151,6 +154,7 @@ while ( true ) {
     console.log( v.value );
 }
 
+})();
 })();
 </script>
 </body>
@@ -258,11 +262,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/iter/concat]: https://github.com/stdlib-js/iter-concat/tree/umd
+[@stdlib/iter/concat]: https://github.com/stdlib-js/iter-concat/tree/umd/tree/umd
 
-[@stdlib/iter/push]: https://github.com/stdlib-js/iter-push/tree/umd
+[@stdlib/iter/push]: https://github.com/stdlib-js/iter-push/tree/umd/tree/umd
 
-[@stdlib/iter/shift]: https://github.com/stdlib-js/iter-shift/tree/umd
+[@stdlib/iter/shift]: https://github.com/stdlib-js/iter-shift/tree/umd/tree/umd
 
 <!-- </related-links> -->
 

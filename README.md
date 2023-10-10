@@ -45,38 +45,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/iter-unshift
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-iterUnshift = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-unshift@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var iterUnshift = require( 'path/to/vendor/umd/iter-unshift/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter-unshift@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.iterUnshift;
-})();
-</script>
+var iterUnshift = require( '@stdlib/iter-unshift' );
 ```
 
 #### iterUnshift( iterator, ...items )
@@ -134,14 +126,9 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter-unshift@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var randu = require( '@stdlib/random-iter-randu' );
+var iterUnshift = require( '@stdlib/iter-unshift' );
 
 // Create a seeded iterator for generating pseudorandom numbers:
 var rand = randu({
@@ -161,11 +148,6 @@ while ( true ) {
     }
     console.log( v.value );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -235,8 +217,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/iter-unshift.svg
 [npm-url]: https://npmjs.org/package/@stdlib/iter-unshift
 
-[test-image]: https://github.com/stdlib-js/iter-unshift/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/iter-unshift/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/iter-unshift/actions/workflows/test.yml/badge.svg?branch=v0.1.1
+[test-url]: https://github.com/stdlib-js/iter-unshift/actions/workflows/test.yml?query=branch:v0.1.1
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/iter-unshift/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/iter-unshift?branch=main
@@ -269,11 +251,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/iter/concat]: https://github.com/stdlib-js/iter-concat/tree/umd
+[@stdlib/iter/concat]: https://github.com/stdlib-js/iter-concat
 
-[@stdlib/iter/push]: https://github.com/stdlib-js/iter-push/tree/umd
+[@stdlib/iter/push]: https://github.com/stdlib-js/iter-push
 
-[@stdlib/iter/shift]: https://github.com/stdlib-js/iter-shift/tree/umd
+[@stdlib/iter/shift]: https://github.com/stdlib-js/iter-shift
 
 <!-- </related-links> -->
 

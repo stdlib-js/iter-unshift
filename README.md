@@ -45,30 +45,14 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/iter-unshift
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var iterUnshift = require( '@stdlib/iter-unshift' );
+import iterUnshift from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-unshift@esm/index.mjs';
 ```
 
 #### iterUnshift( iterator, ...items )
@@ -76,7 +60,7 @@ var iterUnshift = require( '@stdlib/iter-unshift' );
 Returns an [iterator][mdn-iterator-protocol] which prepends values to the **beginning** of a provided [`iterator`][mdn-iterator-protocol].
 
 ```javascript
-var array2iterator = require( '@stdlib/array-to-iterator' );
+import array2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-iterator@esm/index.mjs';
 
 var it = iterUnshift( array2iterator( [ 1, 2 ] ), 3, 4 );
 // returns <Object>
@@ -126,9 +110,14 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var randu = require( '@stdlib/random-iter-randu' );
-var iterUnshift = require( '@stdlib/iter-unshift' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-randu@esm/index.mjs';
+import iterUnshift from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-unshift@esm/index.mjs';
 
 // Create a seeded iterator for generating pseudorandom numbers:
 var rand = randu({
@@ -148,6 +137,10 @@ while ( true ) {
     }
     console.log( v.value );
 }
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -187,7 +180,7 @@ while ( true ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -251,11 +244,11 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/iter/concat]: https://github.com/stdlib-js/iter-concat
+[@stdlib/iter/concat]: https://github.com/stdlib-js/iter-concat/tree/esm
 
-[@stdlib/iter/push]: https://github.com/stdlib-js/iter-push
+[@stdlib/iter/push]: https://github.com/stdlib-js/iter-push/tree/esm
 
-[@stdlib/iter/shift]: https://github.com/stdlib-js/iter-shift
+[@stdlib/iter/shift]: https://github.com/stdlib-js/iter-shift/tree/esm
 
 <!-- </related-links> -->
 

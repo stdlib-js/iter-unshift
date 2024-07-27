@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterUnshift from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-unshift@esm/index.mjs';
+import iterUnshift from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-unshift@v0.2.2-esm/index.mjs';
 ```
 
 #### iterUnshift( iterator, ...items )
@@ -117,7 +117,7 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-randu@esm/index.mjs';
-import iterUnshift from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-unshift@esm/index.mjs';
+import iterUnshift from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-unshift@v0.2.2-esm/index.mjs';
 
 // Create a seeded iterator for generating pseudorandom numbers:
 var rand = randu({
